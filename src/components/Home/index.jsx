@@ -1,9 +1,13 @@
-import React from 'react'
-import { Container } from './style'
+import { Input, Button } from "../Generic";
+import React from "react";
+import { Container } from "./style";
 
-export const Home =()=> {
+export const Home = () => {
   return (
-    <Container>Home</Container>
-  )
-}
+    <Container>
+      <h1>Home</h1>
+      <Input width={"200px"} placeholder={"test"} />
+    </Container>
+  );
+};
 export default Home;
