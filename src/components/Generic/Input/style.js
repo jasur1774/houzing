@@ -43,7 +43,20 @@ const Container = styled.input`
   border: solid 1px #e6e6e6;
   /* ${getType} */
   cursor: pointer;
-  
+  padding-left: ${({ icon }) => (icon ? "40px" : "20px")};
 `;
 
-export { Container };
+const Wrapper = styled.div`
+  width: ${({ width }) => (width ? `${width}px` : "100%")};
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+`;
+const Icon = styled.div`
+  position: absolute;
+  left: 15px;
+`;
+
+
+export { Container, Wrapper, Icon};
