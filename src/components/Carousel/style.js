@@ -79,4 +79,5 @@ Content.Price = styled.div`
 
   color: #ffffff;
 `;
+
 export { Container, Arrow, Img, Blur, Content };
