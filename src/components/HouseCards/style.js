@@ -7,17 +7,15 @@ import { ReactComponent as likeicon } from "../../assets/icons/like.svg";
 import { ReactComponent as dublearrow } from "../../assets/icons/dublearrow.svg";
 
 const Container = styled.div`
-  width: 380px;
   height: 430px;
   filter: drop-shadow(0px 20px 38px rgba(0, 0, 0, 0.06))
     drop-shadow(0px 7px 46px rgba(0, 0, 0, 0.06))
     drop-shadow(0px 8px 15px rgba(0, 0, 0, 0.06));
-
-margin: 100px ;
 `;
 
 const Img = styled.img`
   width: 100%;
+  min-height: 220px;
   max-height: 220px;
 `;
 const Content = styled.div`
@@ -47,15 +45,14 @@ Icons.Bed = styled(bedicon)``;
 Icons.Bath = styled(bathicon)``;
 Icons.Garage = styled(garageicon)``;
 Icons.Ruler = styled(rulericon)``;
-Icons.Dublearrow = styled(dublearrow)`
-`;
+Icons.Dublearrow = styled(dublearrow)``;
 Icons.Likeicon = styled(likeicon)`
-margin-left: 20px;
+  margin-left: 20px;
   padding: 11px 10px;
   background: #f6f8f9;
   border-radius: 50%;
   cursor: pointer;
-  :active{
+  :active {
     transform: scale(1.4);
   }
 `;

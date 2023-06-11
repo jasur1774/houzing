@@ -30,6 +30,15 @@ body {
     color: #0D263B;
 }
 
+.house_seller {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+}
+
 .subTitle {
     font-family: 'Montserrat';
     font-style: normal;
@@ -51,4 +60,9 @@ body {
     /* Text / Color */
 
     color: #696969;
+}
+.inline{
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
 }
